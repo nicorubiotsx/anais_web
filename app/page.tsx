@@ -63,7 +63,7 @@ export default function Home() {
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center">
-            <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
+            <Image className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
             <div className="space-y-0.5 font-medium dark:text-white text-left ms-3">
               <div>Bonnie Green</div>
               <div className="text-sm text-gray-500 dark:text-gray-400">Clienta Feliz</div>

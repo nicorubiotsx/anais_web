@@ -79,8 +79,10 @@ export default function Home() {
                         </h2>
                         <div className="border-t border-pink-400 pt-4 fade-in">
                             <blockquote className="text-white text-base md:text-lg leading-relaxed fade-in">
-                                <p>"La limpieza facial que recibí en Centro Estética Piel Genuina fue increíble. Mi piel nunca se sintió tan fresca y revitalizada. ¡Recomiendo encarecidamente sus servicios!"</p>
+                                <p>&quot;La limpieza facial que recibí en Centro Estética Piel Genuina fue increíble. Mi piel nunca se sintió tan fresca y revitalizada. ¡Recomiendo encarecidamente sus servicios&quot;</p>
                             </blockquote>
+                            <cite className="text-pink-300 mt-2 block text-sm fade-in">- Cliente Satisfecho</cite>
+
                             <cite className="text-pink-300 mt-2 block text-sm fade-in">- Cliente Satisfecho</cite>
                         </div>
                     </div>
