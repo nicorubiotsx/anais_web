@@ -24,7 +24,6 @@ body{
   
   
 
-
 }
 
 
@@ -305,4 +304,15 @@ img, input[type=range] {
 .icon-image {
   vertical-align: middle;
   margin-right: 10px;
+}
+
+
+.background-imagee {
+  margin: 0 auto;
+  background-image: url('/face3.jpg');
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el div */
+  background-position: center; /* Centra la imagen en el div */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  height: 800px; /* Establece la altura del div */
+  width: 90%; /* Ajusta el ancho del div al 100% del contenedor padre */
 }

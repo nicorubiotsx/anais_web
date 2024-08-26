@@ -4,6 +4,9 @@ import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 export default function Home() {
   return (
     <div className="p-4 mt-7">
+      <div className="background-imagee">
+      </div>
+
 
       <div className="title-container">
         <h1 className="facial-title ">
