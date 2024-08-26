@@ -11,7 +11,7 @@ export default function Home() {
       <div className="title-container">
         <h1 className="facial-title ">
           <span className="facial-icon">🧼</span>
-          Tratamientos de <span className="highlight">Limpieza Facial</span>
+          Salón De <span className="highlight">Estetica</span>
         </h1>
       </div>
 
