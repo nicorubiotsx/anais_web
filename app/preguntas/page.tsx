@@ -1,8 +1,11 @@
 'use client'
+import { useState } from 'react';
 import './styles.module.css'
 import { FaInfoCircle, FaCalendarAlt, FaRegSadCry, FaClock, FaRegStar, FaExchangeAlt, FaRedoAlt, FaSun } from 'react-icons/fa';
 
 export default function Home() {
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(0);
+    console.log(expandedIndex)
 
     const preguntas = [
         {
@@ -47,6 +50,11 @@ export default function Home() {
         }
     ];
 
+    const toggleAccordion = (index: number) => {
+        setExpandedIndex(expandedIndex === index ? null : index);
+        console.log(index)
+    };
+
     return (
         <>
             <div className="title-container">
@@ -57,26 +65,29 @@ export default function Home() {
             </div>
 
             <div className="p-6 rounded-lg shadow-md text-center">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-3">
                     {
-                        preguntas.map((faq, id) => (
-                            <div key={id} className="p-4 rounded-lg border-2 border-pink-400 shadow-sm mx-auto max-w-md">
-                                <div className="flex items-center mb-2">
+                        preguntas.map((faq, index) => (
+                            <div key={index} className="p-4 rounded-lg border-2 border-pink-400 shadow-sm mx-auto max-w-md md:max-w-md">
+                                <div className="flex items-center mb-2 cursor-pointer" onClick={() => toggleAccordion(index)}>
                                     {faq.icono}
                                     <h3 className='text-pink-400 text-base md:text-xl ml-2'>
                                         {faq.pregunta}
                                     </h3>
                                 </div>
-                                <p className="text-white text-base md:text-lg mb-4">
-                                    {faq.respuesta}
-                                </p>
+                                {expandedIndex === index && (
+                                    <p className="text-white text-base md:text-lg mb-4">
+                                        {faq.respuesta}
+                                    </p>
+                                )}
                             </div>
                         ))
                     }
                 </div>
             </div>
 
-            <style jsx>{`
+            <style jsx>{
+                `
                 .highlight {
                     background-color: #fef2f2; /* Color de fondo sutil */
                     color: #d53f8c; /* Color de texto resaltado */
@@ -96,7 +107,8 @@ export default function Home() {
                         opacity: 1;
                     }
                 }
-            `}</style>
+                `
+            }</style>
         </>
     );
 }

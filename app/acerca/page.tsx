@@ -30,7 +30,7 @@ export default function Home() {
                                 Un Poco De Mi
                             </h2>
                             <div className="border-2 border-pink-400 rounded-lg shadow-xl bg-black p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
-                                <p className="md:text-lg leading-relaxed fade-in">
+                                <p className="text-white text-base md:text-lg leading-relaxed fade-in">
                                     Mi nombre es Anais Jara Maulen, enfermera profesional enfocada en otorgar cuidado humanizado y de calidad dedicado a la disciplina del estudio y cuidado de la piel a través de tratamientos y técnicas de reparación, restauración, mantenimiento y prevención del deterioro de la piel. Mi objetivo es entregar un cuidado de calidad a tu piel para que la sientas renovada y fresca, además de proporcionarte los conocimientos para lograr un correcto cuidado de tu piel en tu vida cotidiana, según el biotipo cutáneo.
                                 </p>
                             </div>

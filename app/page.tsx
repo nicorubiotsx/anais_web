@@ -5,15 +5,15 @@ export default function Home() {
   return (
     <div className="p-4 mt-7">
 
-<div className="title-container">
-    <h1 className="facial-title">
-        <span className="facial-icon">🧼</span>
-        Tratamientos de <span className="highlight">Limpieza Facial</span>
-    </h1>
-</div>
+      <div className="title-container">
+        <h1 className="facial-title ">
+          <span className="facial-icon">🧼</span>
+          Tratamientos de <span className="highlight">Limpieza Facial</span>
+        </h1>
+      </div>
 
 
- 
+
 
       <div className="flex flex-col md:flex-row gap-4 mt-10">
         <div className="flex-shrink-0 basis-1/2">
@@ -27,15 +27,15 @@ export default function Home() {
         </div>
 
         <div className="border border-pink-400 rounded-lg shadow-lg p-6 mb-6 flex-1 basis-1/2 ">
-        <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mb-2 fade-in">
-  Misión y Propósito: <span className="relative inline-block">
-    <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-400 transform scale-x-0 transition-transform duration-300 ease-in-out"></span>
-    <span className="relative text-white">La Esencia de Nuestro Trabajo</span>
-  </span>
-</h2>
+          <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mb-2 fade-in">
+            Misión y Propósito: <span className="relative inline-block">
+              <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-400 transform scale-x-0 transition-transform duration-300 ease-in-out"></span>
+              <span className="relative text-white">La Esencia de Nuestro Trabajo</span>
+            </span>
+          </h2>
 
 
-          <p className="text-white text-sm md:text-lg">
+          <p className="text-white text-base md:text-lg">
             En Centro Estética Piel Genuina, queremos que luzcas una piel luminosa y radiante. Nuestro servicio de limpieza facial profunda es una experiencia rejuvenecedora y personalizada, usando técnicas avanzadas y productos de alta calidad.
           </p>
 
@@ -58,12 +58,11 @@ export default function Home() {
             <h3 className="text-pink-400 text-xl text-center md:text-2xl font-semibold mb-2">
               Limpieza Facial Profunda
             </h3>
-            <p className="text-white text-sm md:text-lg">
+            <p className="text-white text-base md:text-lg">
               “La limpieza facial profunda ha sido una experiencia increíble. Mi piel se siente limpia y revitalizada.”
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center">
-            <Image className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
             <div className="space-y-0.5 font-medium dark:text-white text-left ms-3">
               <div>Bonnie Green</div>
               <div className="text-sm text-gray-500 dark:text-gray-400">Clienta Feliz</div>
@@ -76,12 +75,11 @@ export default function Home() {
             <h3 className="text-pink-400 text-xl text-center md:text-2xl font-semibold mb-2">
               Dermaplaning
             </h3>
-            <p className="text-white text-sm md:text-lg">
+            <p className="text-white text-base md:text-lg">
               “El dermaplaning ha transformado mi piel. Me encantó la atención al detalle.”
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center">
-            <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="profile picture" />
             <div className="space-y-0.5 font-medium dark:text-white text-left ms-3">
               <div>Roberta Casas</div>
               <div className="text-sm text-gray-500 dark:text-gray-400">Clienta Satisfecha</div>
@@ -96,7 +94,7 @@ export default function Home() {
 
       <div className="mb-8">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5551.095747730654!2d-71.39832881950925!3d-34.17955434520308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1723508749725!5m2!1ses-419!2scl"
+          src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d206.29658464781087!2d-71.40341217948416!3d-34.178427685188915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e3!4m0!4m3!3m2!1d-34.1783198!2d-71.40333369999999!5e0!3m2!1ses-419!2scl!4v1724645618177!5m2!1ses-419!2scl"
           height="350"
           allowFullScreen
           loading="lazy"
@@ -114,7 +112,7 @@ export default function Home() {
 
       <div className="flex flex-col md:flex-row gap-6 mb-8">
         <div className="flex-shrink-0 basis-1/2 flex flex-col items-center">
-          <p className="text-white text-center text-sm md:text-lg mb-4 md:mb-6 px-4 md:px-6">
+          <p className="text-white text-center text-base md:text-lg mb-4 md:mb-6 px-4 md:px-6">
             Conéctate con nosotros a través de Instagram para ver nuestras últimas promociones, consejos de belleza y novedades.
           </p>
           <a
@@ -129,7 +127,7 @@ export default function Home() {
         </div>
 
         <div className="flex-1 basis-1/2 flex flex-col items-center">
-          <p className="text-white text-center text-sm md:text-lg mb-4 md:mb-6 px-4 md:px-6">
+          <p className="text-white text-center text-base md:text-lg mb-4 md:mb-6 px-4 md:px-6">
             Envíanos un mensaje por WhatsApp para consultas rápidas, reservas de citas o cualquier pregunta que tengas. ¡Estamos aquí para ti!
           </p>
           <a

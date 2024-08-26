@@ -196,13 +196,12 @@ height: 100px;
 
 @media screen and (min-width: 300px) and (max-width:600px) {
 
-  nav{
-  margin-left: 200px;
+
   
-    display: none;
+    
     
    
-  }
+  
  
 
   body{
