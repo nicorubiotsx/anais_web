@@ -198,7 +198,8 @@ height: 100px;
 
   nav{
   margin-left: 200px;
-    position: fixed;
+  
+    display: none;
     
    
   }
