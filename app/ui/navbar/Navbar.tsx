@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import './styles.module.css';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +14,7 @@ export default function Navbar() {
     <>
       <nav className="bg-black text-white p-4 fixed top-0 left-0 w-full z-50">
         <div className="container mx-auto flex justify-between items-center">
-        
+          {/* Logo */}
           <div className="text-2xl font-bold">
             <Link href="/">MiLogo</Link>
           </div>
@@ -30,12 +29,12 @@ export default function Navbar() {
           </div>
 
           {/* Menu Items */}
-          <div className={`lg:flex lg:items-center lg:space-x-6 absolute lg:relative top-full left-0 w-full bg-black lg:bg-transparent lg:flex-row ${isOpen ? 'block' : 'hidden'}`}>
-            <Link href="/inicio" className="text-pink-400 block px-3 py-2 text-lg hover:bg-gray-700">Inicio</Link>
-            <Link href="/acerca" className="text-pink-400 block px-3 py-2 text-lg hover:bg-gray-700">Acerca</Link>
-            <Link href="/tratamientos" className="text-pink-400 block px-3 py-2 text-lg hover:bg-gray-700">Tratamientos</Link>
-            <Link href="/preguntas" className="text-pink-400 block px-3 py-2 text-lg hover:bg-gray-700">Preguntas</Link>
-            <Link href="/galeria" className="text-pink-400 block px-3 py-2 text-lg hover:bg-gray-700">Galería</Link>
+          <div className={`lg:flex lg:items-center lg:space-x-6 absolute lg:relative top-full left-0 w-full lg:w-auto bg-black lg:bg-transparent ${isOpen ? 'block' : 'hidden'}`}>
+            <Link href="/" className="text-pink-400 block px-4 py-2 text-lg hover:bg-gray-700 lg:text-xl lg:px-6 lg:py-3">Inicio</Link>
+            <Link href="/acerca" className="text-pink-400 block px-4 py-2 text-lg hover:bg-gray-700 lg:text-xl lg:px-6 lg:py-3">Acerca</Link>
+            <Link href="/tratamiento" className="text-pink-400 block px-4 py-2 text-lg hover:bg-gray-700 lg:text-xl lg:px-6 lg:py-3">Tratamientos</Link>
+            <Link href="/pregunta" className="text-pink-400 block px-4 py-2 text-lg hover:bg-gray-700 lg:text-xl lg:px-6 lg:py-3">Preguntas</Link>
+            <Link href="/galeria" className="text-pink-400 block px-4 py-2 text-lg hover:bg-gray-700 lg:text-xl lg:px-6 lg:py-3">Galería</Link>
           </div>
         </div>
       </nav>
