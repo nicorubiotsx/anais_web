@@ -1,0 +1,20 @@
+/* styles/global.css */
+.highlight {
+    background-color: #fef2f2; /* Color de fondo sutil */
+    color: #d53f8c; /* Color de texto resaltado */
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

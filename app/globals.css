@@ -1,0 +1,308 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body{
+  margin-top: 400px;
+  width: 90%;
+  margin: auto;
+  background: #000000;  /* fallback for old browsers */
+  
+  
+
+
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.xaa{
+  background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bordeimage{
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.mapa{
+  width: 100%;
+}
+
+/* Ancho máximo por defecto */
+
+/* Media query para resoluciones md (por ejemplo, 768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+        .mapa{
+          border-style: 1 solid;
+          border-width: 20px;
+          
+        }
+     
+}
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.slide-in {
+  animation: slideIn 2s ease-in-out;
+}
+
+
+/* Estilos del componente */
+.transform-animation {
+  transform:
+    perspective(800px) /* Mejora la profundidad de la perspectiva */
+    translate3d(0, 0, -200px) /* Ajusta el eje Z para un efecto más notorio */
+    rotateX(15deg) /* Ángulo de rotación ligeramente ajustado */
+    scale(1); /* Mantén el tamaño normal */
+  border-radius: 15px; /* Radio de borde más moderno */
+  border: 3px solid #dcdcdc; /* Color de borde más suave */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Sombra más sutil */
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease; /* Transición suave en transformaciones, sombra y color de fondo */
+  background-color: #1c191a94; /* Fondo gris claro, elegante y versátil */
+  padding: 20px; /* Espaciado interno más amplio */
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+  text-align: center; /* Centra el texto */
+}
+
+.transform-animation:hover {
+  transform:
+    perspective(800px)
+    translate3d(0, 0, -150px) /* Mueve el elemento hacia el observador */
+    rotateX(5deg) /* Menor rotación en hover para una sensación de profundidad */
+    scale(1.05); /* Escala ligeramente el elemento */
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2); /* Sombra más prominente en hover */
+  background-color: #000000; /* Fondo gris más oscuro en hover para dar un contraste sutil */
+}
+
+
+
+
+
+
+
+/* Line styles */
+.connector {
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background-color: transparent;
+
+}
+
+.connector::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 33.3%;
+    width: 33.3%;
+    height: 4px;
+    background-color: pink;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 1s ease-in-out;
+    animation: draw-line 2s forwards 1 ;
+}
+
+/* Fade-in effect */
+.fade-in {
+    opacity: 0;
+    animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Line draw animation */
+@keyframes draw-line {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+
+.image{
+  margin: 0 auto;
+  width: 80%;
+  
+}
+
+.hola{
+
+border: 1px solid green;
+font-size: 30px;
+height: 100px;
+
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width:600px) {
+
+  nav{
+  margin-left: 200px;
+    position: fixed;
+    
+   
+  }
+ 
+
+  body{
+    margin-top: 400px;
+    width: 100%;
+    margin: auto;
+    background: #000000;  /* fallback for old browsers */
+    
+  
+  
+  }
+  
+
+}
+
+
+
+
+
+.clip-path-right {
+  clip-path: inset(0 50% 0 0); /* Visible desde el 50% hacia la derecha */
+}
+/* Transiciones suaves */
+img, input[type=range] {
+  transition: all 0.3s ease-in-out;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.facial-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ec4899; /* Rosado principal */
+  position: relative;
+  line-height: 1.4;
+  font-family: 'Playfair Display', serif; /* Tipografía elegante */
+}
+
+.facial-icon {
+  font-size: 3rem; /* Tamaño del ícono */
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #ec4899; /* Icono en tono rosado */
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+  color: #ec4899; /* Color de texto */
+  padding: 0 10px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.highlight::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10px;
+  background: rgba(236, 72, 153, 0.2); /* Fondo rosado semitransparente */
+  z-index: -1;
+  transform: rotate(-3deg); /* Rotación sutil para dar estilo */
+}
+.icon-image {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: -5px;
+  height: 2px;
+  background: #d53f8c; /* Línea elegante debajo del texto */
+}
+
+@media (max-width: 768px) {
+  .facial-title {
+      font-size: 1.8rem;
+  }
+
+  .facial-icon {
+      font-size: 2.5rem;
+  }
+  .icon-image {
+    width: 40px; /* Ajuste de tamaño para pantallas más pequeñas */
+    height: 40px;
+}
+}
+
+
+.icon-image {
+  vertical-align: middle;
+  margin-right: 10px;
+}
