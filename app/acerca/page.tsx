@@ -79,7 +79,7 @@ export default function Home() {
                             </h2>
                             <div className="border-2 border-pink-400 rounded-lg shadow-xl bg-black p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
                                 <p className="text-white text-base md:text-lg leading-relaxed fade-in">
-                                    En Centro Estética Piel Genuina, creo firmemente en ofrecer un enfoque personalizado y humanizado a cada tratamiento. Mi compromiso es hacer que cada cliente se sienta cuidado, con productos de alta calidad y técnicas avanzadas que revitalizan y renuevan la piel, buscando siempre los mejores resultados para cada tipo de piel.
+                                    En  Salón AJ piel genuina cuidado de tu piel, creo firmemente en ofrecer un enfoque personalizado y humanizado a cada tratamiento. Mi compromiso es hacer que cada cliente se sienta cuidado, con productos de alta calidad y técnicas avanzadas que revitalizan y renuevan la piel, buscando siempre los mejores resultados para cada tipo de piel.
                                 </p>
                             </div>
                         </div>

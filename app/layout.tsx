@@ -11,7 +11,7 @@ const play =Playfair_Display({ weight: "400", subsets: ["latin"] })
 const merri = Merriweather({ weight: "400", subsets: ["latin"]})
 
 export const metadata: Metadata = {
-  title: "Centro Estetica Anais",
+  title: "Salón AJ piel genuina cuidado de tu piel",
   description: "",
 };
 
