@@ -100,12 +100,13 @@ export default function Home() {
 
       <div className="mb-8">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d206.29658464781087!2d-71.40341217948416!3d-34.178427685188915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e3!4m0!4m3!3m2!1d-34.1783198!2d-71.40333369999999!5e0!3m2!1ses-419!2scl!4v1724645618177!5m2!1ses-419!2scl"
-          height="350"
+src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d981.3258131513353!2d-71.40481265476579!3d-34.1777098853038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDEwJzQxLjciUyA3McKwMjQnMTYuMSJX!5e0!3m2!1ses!2scl!4v1724794319680!5m2!1ses!2scl"          height="350"
           allowFullScreen
           loading="lazy"
           className="mapa transition-transform transform hover:scale-105 fade-in"
         ></iframe>
+
+
       </div>
 
       <h2 className="text-pink-400 text-center text-2xl md:text-3xl font-bold mb-6 md:mb-8 fade-in">

@@ -17,21 +17,31 @@ export default function Home() {
     };
 
     const slides = [
-        { imagen: '/dermaplaning1.jpg' },
-        { imagen: '/dermaplaning2.jpg' },
-        { imagen: '/dermaplaning3.jpg' },
-        { imagen: '/dermaplaning4.jpg' },
+        { image: '/dermaplaning1.jpg',
+            description:'asdasd'
+
+         }
+        ,
+        { image: '/dermaplaning2.jpg',
+            description:'asdasdasd'
+         },
+        { image: '/dermaplaning3.jpg',
+            description:'asdasdasd'
+         },
+        { image: '/dermaplaning4.jpg',
+            description:'asdfasdasd'
+         },
     ];
 
     const tratamientos = [
         {
-            titulo: 'Limpieza Facial Profunda',
+            titulo: 'Dermaplaning',
             descripcion: 'Elimina impurezas y células muertas para una piel radiante.',
             imagenAntes: '/antes1.jpg',
             imagenDespues: '/despues1.jpg',
         },
         {
-            titulo: 'Limpieza Facial Profunda',
+            titulo: 'Dermaplaning',
             descripcion: 'Renueva la piel y mejora su textura y tono.',
             imagenAntes: '/antes2.jpg',
             imagenDespues: '/despues2.jpg',
@@ -111,18 +121,17 @@ export default function Home() {
                         {slides.map((s, index) => (
                             <div key={index} className="w-full flex-shrink-0">
                                 <div className="bg-zinc-950 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                                    <div className="relative w-full h-[450px] md:h-[600px] lg:h-[750px]">
+                                    <div className="relative w-full h-[450px] md:h-[500px] lg:h-[600px]">
                                         <Image
-                                            src={s.imagen}
+                                            src={s.image}
                                             alt={`Imagen del slide ${index + 1}`}
                                             layout="fill"
                                             objectFit="cover"
                                             className="rounded transition-transform transform hover:scale-105"
                                         />
-                                        <span className="absolute top-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 text-sm rounded">Después</span>
                                     </div>
                                     <div className="p-4">
-                                        <p className="text-white text-sm md:text-lg">Descripción breve</p>
+                                        <p className="text-white text-sm md:text-lg">{s.description}</p>
                                     </div>
                                 </div>
                             </div>
