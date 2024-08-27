@@ -4,19 +4,23 @@ import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 export default function Home() {
   return (
     <div className="p-4 mt-7">
-      <div className="background-imagee">
+      <div className="relative">
+        <div className=" background-imagee w-full h-96 bg-cover bg-center rounded-lg shadow-lg">
+          {/* La clase `background-imagee` debe estar configurada en tu CSS para mostrar la imagen de fondo */}
+          <div className="mt-40 absolute inset-0 flex items-center justify-center text-center bg-gradient-to-t from-black to-transparent p-4 rounded-lg">
+            <h1 className="text-white text-xl md:text-4xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
+            <span className="facial-icon">🧼</span>
+            Salón AJ piel genuina <span className="highlight">cuidado de tu piel</span>
+            </h1>
+          </div>
+        </div>
       </div>
 
-
-      <div className="title-container">
-        <h1 className="facial-title ">
-          <span className="facial-icon">🧼</span>
-          Salón De <span className="highlight">Estetica</span>
+      <div className="title-container mt-10">
+        <h1 className="facial-title">
+      
         </h1>
       </div>
-
-
-
 
       <div className="flex flex-col md:flex-row gap-4 mt-10">
         <div className="flex-shrink-0 basis-1/2">
@@ -25,18 +29,17 @@ export default function Home() {
             width={500}
             height={500}
             alt="Centro Estética"
-            className="w-full h-auto object-contain border border-pink-400 rounded-lg transition-transform transform hover:scale-105 shadow-lg fade-in"
+            className="w-full h-auto object-cover border border-pink-400 rounded-lg transition-transform transform hover:scale-105 shadow-lg fade-in"
           />
         </div>
 
-        <div className="border border-pink-400 rounded-lg shadow-lg p-6 mb-6 flex-1 basis-1/2 ">
+        <div className="border border-pink-400 rounded-lg shadow-lg p-6 mb-6 flex-1 basis-1/2">
           <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mb-2 fade-in">
             Misión y Propósito: <span className="relative inline-block">
               <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-400 transform scale-x-0 transition-transform duration-300 ease-in-out"></span>
               <span className="relative text-white">La Esencia de Nuestro Trabajo</span>
             </span>
           </h2>
-
 
           <p className="text-white text-base md:text-lg">
             En Centro Estética Piel Genuina, queremos que luzcas una piel luminosa y radiante. Nuestro servicio de limpieza facial profunda es una experiencia rejuvenecedora y personalizada, usando técnicas avanzadas y productos de alta calidad.
@@ -105,7 +108,6 @@ export default function Home() {
         ></iframe>
       </div>
 
-
       <h2 className="text-pink-400 text-center text-2xl md:text-3xl font-bold mb-6 md:mb-8 fade-in">
         ¿Quieres comunicarte con nosotros?
       </h2>
@@ -134,7 +136,7 @@ export default function Home() {
             Envíanos un mensaje por WhatsApp para consultas rápidas, reservas de citas o cualquier pregunta que tengas. ¡Estamos aquí para ti!
           </p>
           <a
-            href="https://wa.me/tuNumero"
+            href="https://wa.me/+56940713305"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col justify-center items-center text-green-500 text-lg gap-2 bg-white hover:bg-green-100 py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl animate__animated animate__fadeIn"

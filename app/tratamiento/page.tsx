@@ -105,7 +105,7 @@ export default function Home() {
                     Selecciona Un Tratamiento
                 </h2>
 
-                <div className="flex flex-col md:flex-row gap-6 md:gap-8 px-4 md:px-8 mt-8">
+                <div className="flex flex-col justify-between md:flex-row gap-6 md:gap-8 px-4 md:px-8 mt-8">
                     <div className="max-w-sm  border border-gray-800 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                         <Link href="/tratamiento/tratamiento-profundo">
                             <Image

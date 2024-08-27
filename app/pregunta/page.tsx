@@ -1,10 +1,10 @@
 'use client'
 import { useState } from 'react';
 import './styles.module.css'
-import { FaInfoCircle, FaCalendarAlt, FaRegSadCry, FaClock, FaRegStar, FaExchangeAlt, FaRedoAlt, FaSun } from 'react-icons/fa';
+import { FaInfoCircle, FaCalendarAlt, FaRegSadCry, FaClock, FaRegStar, FaExchangeAlt, FaRedoAlt, FaSun, FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 export default function Home() {
-    const [expandedIndex, setExpandedIndex] = useState<number | null>(0);
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
     console.log(expandedIndex)
 
     const preguntas = [
@@ -69,11 +69,14 @@ export default function Home() {
                     {
                         preguntas.map((faq, index) => (
                             <div key={index} className="p-4 rounded-lg border-2 border-pink-400 shadow-sm mx-auto max-w-md md:max-w-md">
-                                <div className="flex items-center mb-2 cursor-pointer" onClick={() => toggleAccordion(index)}>
+                                <div className="flex items-center mb-2 cursor-pointer" onClick={() => toggleAccordion(index)} >
                                     {faq.icono}
                                     <h3 className='text-pink-400 text-base md:text-xl ml-2'>
                                         {faq.pregunta}
                                     </h3>
+                                    <button className='bg-white ml-auto'>
+                                        {expandedIndex === index ? <FaChevronUp className="text-pink-400 text-xl" /> : <FaChevronDown className="text-pink-400 text-xl" />}
+                                    </button>
                                 </div>
                                 {expandedIndex === index && (
                                     <p className="text-white text-base md:text-lg mb-4">
