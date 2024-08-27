@@ -72,26 +72,23 @@ export default function Home() {
                             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
                         </div>
                     </div>
-
-                    <div className="bg-black p-6 rounded-lg shadow-xl mb-8 fade-in transform transition-transform hover:-translate-y-1 hover:shadow-3xl">
-                        <h2 className="text-pink-400 text-xl md:text-3xl font-semibold mb-4 fade-in">
-                            Testimonios
-                        </h2>
-                        <div className="border-t border-pink-400 pt-4 fade-in">
-                            <blockquote className="text-white text-base md:text-lg leading-relaxed fade-in">
-                                <p>&quot;La limpieza facial que recibí en Centro Estética Piel Genuina fue increíble. Mi piel nunca se sintió tan fresca y revitalizada. ¡Recomiendo encarecidamente sus servicios&quot;</p>
-                            </blockquote>
-                            <cite className="text-pink-300 mt-2 block text-sm fade-in">- Cliente Satisfecho</cite>
-
-                            <cite className="text-pink-300 mt-2 block text-sm fade-in">- Cliente Satisfecho</cite>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+                        <div className="flex flex-col justify-center fade-in">
+                            <h2 className="text-pink-400 text-xl md:text-3xl font-semibold mb-4 fade-in">
+                                Mi Filosofía
+                            </h2>
+                            <div className="border-2 border-pink-400 rounded-lg shadow-xl bg-black p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
+                                <p className="text-white text-base md:text-lg leading-relaxed fade-in">
+                                    En Centro Estética Piel Genuina, creo firmemente en ofrecer un enfoque personalizado y humanizado a cada tratamiento. Mi compromiso es hacer que cada cliente se sienta cuidado, con productos de alta calidad y técnicas avanzadas que revitalizan y renuevan la piel, buscando siempre los mejores resultados para cada tipo de piel.
+                                </p>
+                            </div>
                         </div>
+
+
                     </div>
 
-                    <div className="text-center mt-8 fade-in">
-                        <a href="/contact" className="bg-pink-400 text-white font-bold py-2 px-4 rounded hover:bg-pink-500 transition-all duration-300 ease-in-out">
-                            Contáctame
-                        </a>
-                    </div>
+
+
                 </div>
             </section>
         </>

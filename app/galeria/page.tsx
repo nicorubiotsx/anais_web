@@ -18,49 +18,49 @@ export default function Home() {
 
     const slides = [
         { image: '/dermaplaning1.jpg',
-            description:'asdasd'
+            description:'Dermaplaning inicial, donde se está removiendo el vello fino y las células muertas de la piel del rostro de la clienta con una herramienta especial. Se nota una mejora en la suavidad y textura de la piel.'
 
          }
         ,
         { image: '/dermaplaning2.jpg',
-            description:'asdasdasd'
+            description:'Aplicación de suero hidratante mediante electroporación. La técnica está diseñada para mejorar la absorción de productos nutritivos en la piel, dejándola más tersa y luminosa.'
          },
         { image: '/dermaplaning3.jpg',
-            description:'asdasdasd'
+            description:'Examinación de la piel después del tratamiento para verificar los resultados. La piel se ve más brillante y uniforme, con una notable reducción en la apariencia de poros y líneas finas'
          },
         { image: '/dermaplaning4.jpg',
-            description:'asdfasdasd'
+            description:'Hidrata y protege la piel con una mascarilla calmante después del dermaplaning y la electroporación, lo que ayuda a reducir cualquier posible enrojecimiento o irritación.'
          },
     ];
 
     const tratamientos = [
         {
             titulo: 'Dermaplaning',
-            descripcion: 'Elimina impurezas y células muertas para una piel radiante.',
+            descripcion: 'Mejora en la claridad y la suavidad de la piel tras un tratamiento de dermaplaning, eliminando células muertas y vello fino.',
             imagenAntes: '/antes1.jpg',
             imagenDespues: '/despues1.jpg',
         },
         {
             titulo: 'Dermaplaning',
-            descripcion: 'Renueva la piel y mejora su textura y tono.',
+            descripcion: 'Piel más luminosa y con un tono uniforme tras una sesión de dermaplaning, rejuveneciendo la apariencia.',
             imagenAntes: '/antes2.jpg',
             imagenDespues: '/despues2.jpg',
         },
         {
-            titulo: 'Peeling Químico',
-            descripcion: 'Renueva la piel y mejora su textura y tono.',
+            titulo: 'Dermaplaning',
+            descripcion: 'Textura de la piel visiblemente mejorada con una apariencia más tersa y suave después del tratamiento.',
             imagenAntes: '/antes3.jpg',
             imagenDespues: '/despues3.jpg',
         },
         {
-            titulo: 'Peeling Químico',
-            descripcion: 'Renueva la piel y mejora su textura y tono.',
+            titulo: 'Dermaplaning',
+            descripcion: ' Hidratación profunda y renovación cutánea tras el dermaplaning, mostrando una piel fresca y saludable.',
             imagenAntes: '/antes4.jpg',
             imagenDespues: '/despues4.jpg',
         },
         {
-            titulo: 'Peeling Químico',
-            descripcion: 'Renueva la piel y mejora su textura y tono.',
+            titulo: 'Dermaplaning',
+            descripcion: ' Piel visiblemente revitalizada y libre de impurezas, con una textura refinada tras el dermaplaning.',
             imagenAntes: '/antes5.jpg',
             imagenDespues: '/despues5.jpg',
         },
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
 
             <div className="container mx-auto px-4 py-8">
-                <h1 className="text-center text-pink-400 text-xl md:text-4xl font-bold fade-in">Galería De Trabajo</h1>
+                <h1 className="text-center text-pink-400 text-xl md:text-4xl font-bold fade-in"> Dermaplaning + electroporación e Hiodratacion en accion  </h1>
 
                 <div className="relative w-full overflow-hidden mt-8">
                     <div
