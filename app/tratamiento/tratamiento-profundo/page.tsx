@@ -9,7 +9,7 @@ export default function Home() {
             </div>            <div className="">
 
 
-                <div className="transform-animation border-4 border-pink-300 pl-6 flex flex-col  md:text-lg bg-dark rounded-lg shadow-lg p-5 slide-in   md:flex-row gap-6 mb-10 ">
+                <div className="border-4 border-pink-300 pl-6 flex flex-col  md:text-lg bg-dark rounded-lg shadow-lg p-5 slide-in   md:flex-row gap-6 mb-10 ">
 
                     <div className="">
                         <Image

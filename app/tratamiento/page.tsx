@@ -78,6 +78,7 @@ export default function Home() {
                         <div className="flex-1 min-w-[400px] max-w-[550px] p-6 rounded-lg shadow-lg hover:shadow-pink-400 hover:scale-105 transition-all border border-pink-400">
                             <div className="flex items-start gap-4">
                                 <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg bg-pink-400 text-white">
+                                <FaSun className="w-6 h-6" />
                                 </div>
                                 <div>
                                     <p className="text-white text-base md:text-lg">
@@ -90,6 +91,8 @@ export default function Home() {
                         <div className="flex-1 min-w-[400px] max-w-[550px]  p-6 rounded-lg shadow-lg hover:shadow-pink-400 hover:scale-105 transition-all border border-pink-400">
                             <div className="flex items-start gap-4">
                                 <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-lg bg-pink-400 text-white">
+                                <FaWater className="w-6 h-6" />
+
                                 </div>
                                 <div>
                                     <p className="text-white text-base md:text-lg">
@@ -106,7 +109,7 @@ export default function Home() {
                 </h2>
 
                 <div className="flex flex-col justify-between md:flex-row gap-6 md:gap-8 px-4 md:px-8 mt-8">
-                    <div className="max-w-sm  border border-gray-800 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <div className="max-w-sm  border  border-pink-400 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                         <Link href="/tratamiento/tratamiento-profundo">
                             <Image
                                 src="/face1.png"
@@ -125,7 +128,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="max-w-sm border border-gray-800 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <div className="max-w-sm border  border-pink-400 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                         <Link href="/tratamiento/tratamiento-premium">
                             <Image
                                 src="/face2.webp"
@@ -144,7 +147,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="max-w-sm  border border-gray-800 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <div className="max-w-sm  border  border-pink-400 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                         <Link href="/tratamiento/dermaplaning">
                             <Image
                                 src="/face3.webp"

@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export default function Home() {
+
   return (
     <div className="p-4 mt-7">
       <div className="relative">
@@ -9,8 +10,8 @@ export default function Home() {
           {/* La clase `background-imagee` debe estar configurada en tu CSS para mostrar la imagen de fondo */}
           <div className="mt-40 absolute inset-0 flex items-center justify-center text-center bg-gradient-to-t from-black to-transparent p-4 rounded-lg">
             <h1 className="text-white text-xl md:text-4xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
-            <span className="facial-icon">🧼</span>
-            Salón AJ piel genuina <span className="highlight">cuidado de tu piel</span>
+              <span className="facial-icon">🧼</span>
+              Salón AJ piel genuina <span className="highlight">cuidado de tu piel</span>
             </h1>
           </div>
         </div>
@@ -18,7 +19,7 @@ export default function Home() {
 
       <div className="title-container mt-10">
         <h1 className="facial-title">
-      
+
         </h1>
       </div>
 
@@ -58,8 +59,8 @@ export default function Home() {
         Testimonios de Clientes
       </h2>
 
-      <div className="grid mb-8 border border-gray-200 rounded-lg shadow-lg dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-gray-800 dark:bg-gray-800 mt-10">
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-black border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
+      <div className="grid mb-8 border border-pink-400 rounded-lg shadow-lg dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-gray-800 dark:bg-gray-800 mt-10">
+        <figure className="flex flex-col items-center justify-center p-8 text-center bg-black border  border-pink-400 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 className="text-pink-400 text-xl text-center md:text-2xl font-semibold mb-2">
               Limpieza Facial Profunda
@@ -94,13 +95,13 @@ export default function Home() {
         </figure>
       </div>
 
-      <h2 className="text-pink-400 text-xl text-center md:text-4xl font-semibold mb-2 fade-in">
+      <h2 className="text-pink-400 text-xl text-center md:text-4xl font-semibold mb-2 fade-in pt-20">
         Nuestra Ubicación
       </h2>
 
-      <div className="mb-8">
+      <div className="mb-8 pt-20">
         <iframe
-src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d981.3258131513353!2d-71.40481265476579!3d-34.1777098853038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDEwJzQxLjciUyA3McKwMjQnMTYuMSJX!5e0!3m2!1ses!2scl!4v1724794319680!5m2!1ses!2scl"          height="350"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d981.3258131513353!2d-71.40481265476579!3d-34.1777098853038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDEwJzQxLjciUyA3McKwMjQnMTYuMSJX!5e0!3m2!1ses!2scl!4v1724794319680!5m2!1ses!2scl" height="350"
           allowFullScreen
           loading="lazy"
           className="mapa transition-transform transform hover:scale-105 fade-in"
@@ -109,7 +110,7 @@ src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d981.3258131513353!2d-
 
       </div>
 
-      <h2 className="text-pink-400 text-center text-2xl md:text-3xl font-bold mb-6 md:mb-8 fade-in">
+      <h2 className=" pt-20 text-pink-400 text-center text-2xl md:text-3xl font-bold mb-6 md:mb-8 fade-in">
         ¿Quieres comunicarte con nosotros?
       </h2>
       <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
