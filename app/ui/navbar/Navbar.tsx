@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './styles.module.css';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  
+
 
   // Function to determine if a link is active
   const isActive = (path: string) => pathname === path ? 'text-pink-600 bg-gray-800' : 'text-pink-400';
@@ -21,9 +22,15 @@ export default function Navbar() {
     <>
       <nav className="bg-black text-white p-4 fixed top-0 left-0 w-full z-50 shadow-lg border-b-2 border-pink-400">
         <div className="container mx-auto flex justify-between items-center">
-          {/* Logo */}
+
           <div className="text-2xl font-bold">
-            <Link href="/">MiLogo</Link>
+            <Link href="/">    <Image
+              src={'/logox.jpg'}
+              width={80}
+              height={50}
+              alt=''
+
+            /></Link>
           </div>
 
           {/* Menu Toggle Button (for mobile) */}
