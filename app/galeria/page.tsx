@@ -111,7 +111,7 @@ export default function Home() {
             </div>
 
             <div className="container mx-auto px-4 py-8">
-                <h1 className="text-center text-pink-400 text-xl md:text-4xl font-bold fade-in"> Dermaplaning + electroporación e Hiodratacion en accion  </h1>
+                <h1 className="text-center text-pink-400 text-xl md:text-4xl font-bold fade-in"> Dermaplaning + electroporación e hidratación en acción  </h1>
 
                 <div className="relative w-full overflow-hidden mt-8">
                     <div
