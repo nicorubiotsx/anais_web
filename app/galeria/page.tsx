@@ -113,7 +113,7 @@ export default function Home() {
                                     </div>
 
                                 </div>
-                                <p className="text-sm md:text-lg">{tratamiento.descripcion}</p>
+                                <p className="text-base md:text-lg">{tratamiento.descripcion}</p>
                             </div>
                         </div>
                     ))}

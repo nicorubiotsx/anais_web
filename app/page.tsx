@@ -42,14 +42,14 @@ export default function Home() {
             </span>
           </h2>
 
-          <p className=" text-center text-sm md:text-xl mb-6 md:mb-8">
+          <p className=" text-center text-base md:text-xl mb-6 md:mb-8">
             En Salón Estética AJ Piel Genuina, queremos que luzcas una piel luminosa y radiante. Nuestro servicio de limpieza facial profunda es una experiencia rejuvenecedora y personalizada, usando técnicas avanzadas y productos de alta calidad.
           </p>
 
           <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mb-2 fade-in mt-20">
             ¿Qué es la Limpieza Facial?
           </h2>
-          <p className=" text-sm md:text-xl">
+          <p className=" text-base md:text-xl">
           La limpieza facial es un tratamiento estético esencial que elimina impurezas, células muertas, toxinas, y residuos que se acumulan en la piel y que no se eliminan completamente con la limpieza diaria. Mediante técnicas especializadas como la exfoliación, extracción, y la aplicación de productos adecuados a cada tipo de piel, se mejora la textura, luminosidad, y apariencia del rostro, destapando los poros y promoviendo la regeneración celular. Además, la limpieza facial previene la aparición de imperfecciones como puntos negros y acné, y deja la piel suave, fresca y radiante.          </p>
 
         </div>
@@ -71,7 +71,7 @@ export default function Home() {
           </blockquote>
           <figcaption className="flex items-center justify-center">
             <div className="space-y-0.5 font-medium dark:text-white text-left ms-3">
-              <div className="text-sm " >Clienta Feliz</div>
+              <div className="text-base " >Clienta Feliz</div>
             </div>
           </figcaption>
         </figure>
@@ -87,7 +87,7 @@ export default function Home() {
           </blockquote>
           <figcaption className="flex items-center justify-center">
             <div className="space-y-0.5 font-medium dark:text-white text-left ms-3">
-              <div className="text-sm  ">Clienta Satisfecha</div>
+              <div className="text-base  ">Clienta Satisfecha</div>
             </div>
           </figcaption>
         </figure>
