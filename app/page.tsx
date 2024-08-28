@@ -77,7 +77,7 @@ export default function Home() {
         </figure>
 
         <figure className="flex flex-col items-center justify-center p-8 text-center  border-b border-gray-200 md:rounded-se-lg ">
-          <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 dark:text-gray-400">
+          <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 ">
             <h3 className="text-pink-400 text-xl text-center md:text-2xl font-semibold mb-2">
               Dermaplaning
             </h3>
