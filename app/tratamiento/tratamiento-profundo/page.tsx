@@ -30,7 +30,7 @@ export default function Home() {
                     <div>
                         <h2 className="text-pink-500 text-xl text-center md:text-2xl font-semibold mb-4 slide-in">INCLUYE</h2>
                         <ul className="space-y-4 text-left text-white">
-                            {["Emulsión desmaquillante","Expropiación slice 140","Tonico hidrocalmante",  "Loción ablandante de comedones", "Vapor de  ozono", "Peeling ultrasónico alta frecuencia ",  "Sérum con principios activos",  "Masaje facial", "Crema sellante", "Protector solar 50"].map((item) => (
+                            {["Emulsión desmaquillante","Exfoliación slice 140","Tonico hidrocalmante",  "Loción ablandante de comedones", "Vapor de  ozono", "Peeling ultrasónico" ,"alta frecuencia ",  "Sérum con principios activos",  "Masaje facial", "Crema sellante", "Protector solar 50"].map((item) => (
                                 <li key={item} className="flex items-center space-x-3 rtl:space-x-reverse fade-in">
                                     <svg className="flex-shrink-0 w-4 h-4 text-pink-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
