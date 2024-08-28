@@ -3,13 +3,9 @@ import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export default function Home() {
     return (
-        <div className="mt-7 p-5 bg-dark from-pink-50 to-pink-100">
-            <div className="title-container">
-                <h1 className="facial-title"><span className="facial-icon">🧼</span>Limpieza Facial <span className="highlight">Profunda Premium</span></h1>
-            </div>            <div className="">
-
-
-                <div className=" p justify-center  border-4 border-pink-300 pl-6 flex flex-col   md:text-lg bg-dark rounded-lg shadow-lg p-5 slide-in   md:flex-row gap-6 mb-10  ">
+        <>
+            <div className="mt-7 p-5 bg-dark from-pink-50 to-pink-100">
+                <div className="border-4 border-pink-300 pl-6 flex flex-col md:text-lg bg-dark rounded-lg shadow-lg p-5 slide-in md:flex-row gap-6 mb-10">
                     <div className="relative">
                         <Image
                             src="/face2.webp"
@@ -18,30 +14,29 @@ export default function Home() {
                             alt="Centro Estética"
                             className="rounded-lg shadow-lg transition-transform transform hover:scale-105 fade-in"
                         />
-                        <div className="absolute ">
-                            <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-2 rounded">
+                        <div className="absolute bottom-4 right-4 p-4 bg-black bg-opacity-50 rounded-lg">
+                            <p className="text-white text-lg font-bold">
                                 Precio: 35.000
                             </p>
                         </div>
                     </div>
 
-
-                    <div className="">
-                        <h2 className="text-pink-500 text-sm text-center md:text-2xl font-semibold mb-4 slide-in">INCLUYE</h2>
+                    <div>
+                        <h2 className="text-pink-500 text-xl text-center md:text-2xl font-semibold mb-4 slide-in">INCLUYE</h2>
                         <ul className="space-y-4 text-left text-white">
-                            {["Emulsión desmaquillante", "Exfoliación slice 140","Dermoabrasión","Tonico hidrocalmante", "Locion ablandante ded comedones", "Vapor de ozono", "Peeling ultrasónico"," Alta frecuencia ",  "Sérum con principios activos", "Electroporación", "Masaje facial", "Crema sellante", "Protector solar factor 50"].map((item) => (
+                            {["Emulsión desmaquillante", "Exfoliación slice 140", "Dermoabrasión", "Tónico hidrocalmante", "Loción ablandante de comedones", "Vapor de ozono", "Peeling ultrasónico", "Alta frecuencia", "Sérum con principios activos", "Electroporación", "Masaje facial", "Crema sellante", "Protector solar factor 50"].map((item) => (
                                 <li key={item} className="flex items-center space-x-3 rtl:space-x-reverse fade-in">
                                     <svg className="flex-shrink-0 w-4 h-4 text-pink-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
+                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
                                     </svg>
-                                    <span>{item}</span>
+                                    <span className="text-white text-base md:text-lg">{item}</span>
                                 </li>
                             ))}
                         </ul>
 
                         <div className="mt-8 text-center slide-in">
                             <p className="text-pink-500 text-xl">Reserva a través de nuestras redes</p>
-                            <div className="flex flex-col mt-4 md:flex-row gap-4 justify-center items-center">
+                            <div className="flex flex-row mt-4 md:flex-row gap-4 justify-center items-center">
                                 <a
                                     href="https://www.instagram.com/anaisjaramaulen/"
                                     target="_blank"
@@ -63,11 +58,8 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>
+        </>
     );
 }
-
-

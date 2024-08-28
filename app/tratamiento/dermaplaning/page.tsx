@@ -3,11 +3,11 @@ import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export default function Home() {
     return (
-        <div className="mt-7 p-5 bg-dark from-pink-50 to-pink-100">
-            <div className="title-container">
-                <h1 className="facial-title"><span className="facial-icon">🧼</span>Derma<span className="highlight">planing</span></h1>
-            </div>
+                <>
 
+
+        <div className="mt-7 p-5 bg-dark from-pink-50 to-pink-100">
+   
 
 
             <div className=" border-4 border-pink-300 pl-6 flex flex-col  md:text-lg bg-dark rounded-lg shadow-lg p-5 slide-in   md:flex-row gap-6 mb-10 ">
@@ -45,7 +45,7 @@ export default function Home() {
 
                     <div className="mt-8 text-center slide-in">
                         <p className="text-pink-500 text-xl">Reserva a través de nuestras redes</p>
-                        <div className="flex flex-col mt-4 md:flex-row gap-4 justify-center items-center">
+                        <div className="flex flex-row mt-4 md:flex-row gap-4 justify-center items-center">
                             <a
                                 href="https://www.instagram.com/anaisjaramaulen/"
                                 target="_blank"
@@ -70,6 +70,8 @@ export default function Home() {
 
             </div>
         </div>
+                </>
+
 
     );
 }
