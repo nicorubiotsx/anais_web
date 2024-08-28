@@ -331,7 +331,7 @@ img, input[type=range] {
   width: 100%;
   height: 20%; /* Ajusta la altura del área de desenfoque */
   background: rgba(255, 255, 255, 0.1); /* Ligero fondo semitransparente */
-  backdrop-filter: blur(15px); /* Aplica el desenfoque */
+  backdrop-filter: blur(65px); /* Aplica el desenfoque */
   z-index: 10;
 }
 
