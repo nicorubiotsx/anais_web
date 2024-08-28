@@ -111,7 +111,7 @@ export default function Home() {
       <h2 className=" pt-20 text-pink-400 text-center text-2xl md:text-3xl font-bold mb-6 md:mb-8 fade-in">
         ¿Quieres comunicarte con nosotros?
       </h2>
-      <p className=" text-center text-sm md:text-xl mb-6 md:mb-8">
+      <p className=" text-center text-base md:text-xl mb-6 md:mb-8">
         Ya sea que tengas preguntas, quieras hacer una cita, o simplemente desees más información, estamos aquí para ayudarte.
       </p>
 
