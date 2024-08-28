@@ -150,7 +150,7 @@ export default function Home() {
                     <div className="max-w-sm  border  border-pink-400 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                         <Link href="/tratamiento/dermaplaning">
                             <Image
-                                src="/face3.webp"
+                                src="/derma.jpeg"
                                 width={500}
                                 height={500}
                                 alt="Dermaplaning"

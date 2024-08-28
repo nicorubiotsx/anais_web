@@ -26,8 +26,8 @@ export default function Navbar() {
           <div className="text-2xl font-bold">
             <Link href="/">    <Image
               src={'/logox.jpg'}
-              width={80}
-              height={50}
+              width={40}
+              height={40}
               alt=''
 
             /></Link>

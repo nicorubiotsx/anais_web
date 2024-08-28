@@ -68,7 +68,7 @@ export default function Home() {
                                 <h3 className='text-pink-400 text-lg md:text-2xl font-semibold ml-4'>
                                     {faq.pregunta}
                                 </h3>
-                                <button className='ml-auto'>
+                                <button className='ml-auto bg-white'>
                                     {expandedIndex === index 
                                         ? <FaChevronUp className="text-pink-400 text-2xl" /> 
                                         : <FaChevronDown className="text-pink-400 text-2xl" />}

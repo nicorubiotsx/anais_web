@@ -10,15 +10,19 @@ export default function Home() {
 
 
                 <div className=" p justify-center  border-4 border-pink-300 pl-6 flex flex-col   md:text-lg bg-dark rounded-lg shadow-lg p-5 slide-in   md:flex-row gap-6 mb-10  ">
-
-                    <div className="">
+                    <div className="relative">
                         <Image
-                            src="/derma.jpg"
-                            width={600}
+                            src="/face2.webp"
+                            width={500}
                             height={500}
                             alt="Centro Estética"
-                            className="rounded-lg shadow-lg transition-transform transform hover:scale-105 fade-in" />
-
+                            className="rounded-lg shadow-lg transition-transform transform hover:scale-105 fade-in"
+                        />
+                        <div className="absolute ">
+                            <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-2 rounded">
+                                Precio: 35.000
+                            </p>
+                        </div>
                     </div>
 
 

@@ -26,9 +26,9 @@ export default function Home() {
       <div className="flex flex-col md:flex-row gap-4 mt-10">
         <div className="flex-shrink-0 basis-1/2">
           <Image
-            src="/face4.jpg"
-            width={500}
-            height={500}
+            src="/aa.webp"
+            width={400}
+            height={400}
             alt="Centro Estética"
             className="w-full h-auto object-cover border border-pink-400 rounded-lg transition-transform transform hover:scale-105 shadow-lg fade-in"
           />
