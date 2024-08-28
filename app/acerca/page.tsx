@@ -3,10 +3,10 @@ import Image from 'next/image';
 export default function Home() {
     return (
         <>
-            <section className=" bg-black text-white fade-in">
+            <section className="   fade-in">
                 <div className="container mx-auto">
                 <div className="title-container">
-                        <h1 className=" text-white text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s"><span className="facial-icon">🧼</span>Conoce Un Poco 
+                        <h1 className="  text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s"><span className="facial-icon">🧼</span>Conoce Un Poco 
                         <span className="highlight">Más De Mi</span></h1>
                     </div>   
 
@@ -27,8 +27,8 @@ export default function Home() {
                             <h2 className="text-pink-400 text-xl md:text-3xl font-semibold mb-4 fade-in">
                                 Un Poco De Mi
                             </h2>
-                            <div className="border-2 border-pink-400 rounded-lg shadow-xl bg-black p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
-                                <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
+                            <div className="border-2 border-pink-400 rounded-lg shadow-xl  p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
+                                <p className=" text-center text-sm md:text-xl mb-6 md:mb-8">
                                     Mi nombre es Anais Jara Maúlen, enfermera profesional enfocada en otorgar cuidado humanizado y de calidad dedicado a la disciplina del estudio y cuidado de la piel a través de tratamientos y técnicas de reparación, restauración, mantenimiento y prevención del deterioro de la piel. Mi objetivo es entregar un cuidado de calidad a tu piel para que la sientas renovada y fresca, además de proporcionarte los conocimientos para lograr un correcto cuidado de tu piel en tu vida cotidiana, según el biotipo cutáneo.
                                 </p>
                             </div>
@@ -45,13 +45,13 @@ export default function Home() {
                                     Certificaciones
                                 </h2>
                             </div>
-                            <div className="border-2 border-pink-400 rounded-lg shadow-xl bg-black p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
-                                <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
+                            <div className="border-2 border-pink-400 rounded-lg shadow-xl  p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
+                                <p className=" text-center text-sm md:text-xl mb-6 md:mb-8">
                                      Cuento con certificaciones profesionales que respaldan mi enfoque en la limpieza facial profunda. Utilizo técnicas avanzadas y productos de calidad, adaptando el tratamiento a tu tipo de piel para asegurar que luzca saludable y revitalizada. Mi objetivo es ofrecerte un cuidado eficaz y personalizado.
                                 </p>
-                                <div className="bg-black rounded-lg shadow-xl p-4 fade-in transform transition-transform hover:-translate-y-1 hover:shadow-3xl">
+                                <div className=" rounded-lg shadow-xl p-4 fade-in transform transition-transform hover:-translate-y-1 hover:shadow-3xl">
                                     <h3 className="text-pink-400 text-lg md:text-xl font-semibold mb-4 fade-in">Certificados</h3>
-                                    <ul className="list-disc pl-5 text-white text-base md:text-lg space-y-2 fade-in">
+                                    <ul className="list-disc pl-5  text-base md:text-lg space-y-2 fade-in">
                                         <li>Dermaplaning Y Limpieza Facial Con Aparatología</li>
                                         <li>Limpieza Facial Profunda Con Aparatología</li>
                                     </ul>
@@ -75,8 +75,8 @@ export default function Home() {
                             <h2 className="text-pink-400 text-xl md:text-3xl font-semibold mb-4 fade-in">
                                 Mi Filosofía
                             </h2>
-                            <div className="border-2 border-pink-400 rounded-lg shadow-xl bg-black p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
-                                <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
+                            <div className="border-2 border-pink-400 rounded-lg shadow-xl p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
+                                <p className=" text-center text-sm md: mb-6 md:mb-8 text-xl">
                                    Creo firmemente en ofrecer un enfoque personalizado y humanizado a cada tratamiento. Mi compromiso es hacer que cada cliente se sienta cuidado, con productos de alta calidad y técnicas avanzadas que revitalizan y renuevan la piel, buscando siempre los mejores resultados para cada tipo de piel.
                                 </p>
                             </div>

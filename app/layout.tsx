@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Gotu, Roboto_Mono, Playfair_Display, Merriweather } from "next/font/google";
+import { Inter, Gotu, Roboto_Mono, Playfair_Display, Merriweather,Urbanist,Alegreya } from "next/font/google";
 import "./globals.css";
 import 'animate.css';
 import Footer from "./ui/Footer";
@@ -9,6 +9,7 @@ import Navbar from "./ui/navbar/Navbar";
 const Ro = Roboto_Mono({ weight: "400", subsets: ["latin"] })
 const play = Playfair_Display({ weight: "400", subsets: ["latin"] })
 const merri = Merriweather({ weight: "400", subsets: ["latin"] })
+const ale = Alegreya({weight:"600",subsets:["latin"]})
 
 export const metadata: Metadata = {
   title: "Salón AJ piel genuina cuidado de tu piel",
@@ -34,7 +35,7 @@ export default function RootLayout({
 
       </head>
 
-      <body className={merri.className}>
+      <body className={ale.className}>
         <Navbar />
         {children}
 

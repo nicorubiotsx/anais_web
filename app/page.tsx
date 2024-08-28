@@ -9,7 +9,7 @@ export default function Home() {
         <div className=" background-imagee w-full h-96 bg-cover bg-center rounded-lg shadow-lg">
           {/* La clase `background-imagee` debe estar configurada en tu CSS para mostrar la imagen de fondo */}
           <div className="mt-40 absolute inset-0 flex items-center justify-center text-center bg-gradient-to-t from-black to-transparent p-4 rounded-lg">
-            <h1 className="text-white text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
+            <h1 className=" text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
               <span className="facial-icon">🧼</span>
               Salón AJ Piel Genuina <span className="highlight">Cuidado De Tú Piel</span>
             </h1>
@@ -38,18 +38,18 @@ export default function Home() {
           <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mt-10 fade-in">
             Misión y Propósito: <span className="relative inline-block">
               <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-400 transform scale-x-0 transition-transform duration-300 ease-in-out"></span>
-              <span className="relative text-white">La Esencia de Nuestro Trabajo</span>
+              <span className="relative ">La Esencia de Nuestro Trabajo</span>
             </span>
           </h2>
 
-          <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
+          <p className=" text-center text-sm md:text-xl mb-6 md:mb-8">
             En Salón Estética AJ Piel Genuina, queremos que luzcas una piel luminosa y radiante. Nuestro servicio de limpieza facial profunda es una experiencia rejuvenecedora y personalizada, usando técnicas avanzadas y productos de alta calidad.
           </p>
 
           <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mb-2 fade-in mt-20">
             ¿Qué es la Limpieza Facial?
           </h2>
-          <p className="text-white text-sm md:text-lg">
+          <p className=" text-sm md:text-xl">
           La limpieza facial es un tratamiento estético esencial que elimina impurezas, células muertas, toxinas, y residuos que se acumulan en la piel y que no se eliminan completamente con la limpieza diaria. Mediante técnicas especializadas como la exfoliación, extracción, y la aplicación de productos adecuados a cada tipo de piel, se mejora la textura, luminosidad, y apariencia del rostro, destapando los poros y promoviendo la regeneración celular. Además, la limpieza facial previene la aparición de imperfecciones como puntos negros y acné, y deja la piel suave, fresca y radiante.          </p>
 
         </div>
@@ -60,34 +60,34 @@ export default function Home() {
       </h2>
 
       <div className="grid mb-8 border border-pink-400 rounded-lg shadow-lg dark:border-gray-700 md:mb-12 md:grid-cols-2  mt-20">
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-black border  border-pink-400 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e ">
-          <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 ">
+        <figure className="flex flex-col items-center justify-center p-8 text-center  border  border-pink-400 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e ">
+          <blockquote className="max-w-2xl mx-auto mb-4 lg:mb-8 ">
             <h3 className="text-pink-400 text-xl text-center md:text-2xl font-semibold mb-2">
               Limpieza Facial Profunda
             </h3>
-            <p className="text-white text-base md:text-lg">
+            <p className=" text-base md:text-xl">
               “La limpieza facial profunda ha sido una experiencia increíble. Mi piel se siente limpia y revitalizada.”
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center">
             <div className="space-y-0.5 font-medium dark:text-white text-left ms-3">
-              <div className="text-sm text-white" >Clienta Feliz</div>
+              <div className="text-sm " >Clienta Feliz</div>
             </div>
           </figcaption>
         </figure>
 
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-black border-b border-gray-200 md:rounded-se-lg ">
-          <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+        <figure className="flex flex-col items-center justify-center p-8 text-center  border-b border-gray-200 md:rounded-se-lg ">
+          <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 dark:text-gray-400">
             <h3 className="text-pink-400 text-xl text-center md:text-2xl font-semibold mb-2">
               Dermaplaning
             </h3>
-            <p className="text-white text-base md:text-lg">
+            <p className=" text-base md:text-xl">
               “El dermaplaning ha transformado mi piel. Me encantó la atención al detalle.”
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center">
             <div className="space-y-0.5 font-medium dark:text-white text-left ms-3">
-              <div className="text-sm text-white ">Clienta Satisfecha</div>
+              <div className="text-sm  ">Clienta Satisfecha</div>
             </div>
           </figcaption>
         </figure>
@@ -111,13 +111,13 @@ export default function Home() {
       <h2 className=" pt-20 text-pink-400 text-center text-2xl md:text-3xl font-bold mb-6 md:mb-8 fade-in">
         ¿Quieres comunicarte con nosotros?
       </h2>
-      <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
+      <p className=" text-center text-sm md:text-xl mb-6 md:mb-8">
         Ya sea que tengas preguntas, quieras hacer una cita, o simplemente desees más información, estamos aquí para ayudarte.
       </p>
 
       <div className="flex flex-col md:flex-row gap-6 mb-8">
         <div className="flex-shrink-0 basis-1/2 flex flex-col items-center">
-          <p className="text-white text-center text-base md:text-lg mb-4 md:mb-6 px-4 md:px-6">
+          <p className="text-center text-base md:text-xl mb-4 md:mb-6 px-4 md:px-6">
             Conéctate con nosotros a través de Instagram para ver nuestras últimas promociones, consejos de belleza y novedades.
           </p>
           <a
@@ -132,7 +132,7 @@ export default function Home() {
         </div>
 
         <div className="flex-1 basis-1/2 flex flex-col items-center">
-          <p className="text-white text-center text-base md:text-lg mb-4 md:mb-6 px-4 md:px-6">
+          <p className=" text-center text-base md:text-xl mb-4 md:mb-6 px-4 md:px-6">
             Envíanos un mensaje por WhatsApp para consultas rápidas, reservas de citas o cualquier pregunta que tengas. ¡Estamos aquí para ti!
           </p>
           <a

@@ -9,7 +9,7 @@ export default function Home() {
 <>
 
 
-<div className="mt-7 p-5 bg-dark from-pink-50 to-pink-100">
+<div className="mt-7 p-5 bg-dark from-pink-50 to-pink-100 trata-detalle mx-auto">
 
 
 
@@ -23,7 +23,7 @@ export default function Home() {
                 className="rounded-lg shadow-lg transition-transform transform hover:scale-105 fade-in"
             />
             <div className="absolute bottom-0 right-0 p-4">
-                <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-2 rounded">
+                <p className=" text-xl font-bold  bg-opacity-50 p-2 rounded">
                     Precio: 25.000
                 </p>
             </div>
@@ -35,13 +35,13 @@ export default function Home() {
 
         <div>
             <h2 className="text-pink-500 text-xl text-center md:text-2xl font-semibold mb-4 slide-in">INCLUYE</h2>
-            <ul className="space-y-4 text-left text-white">
-                {["Emulsión desmaquillante","Exfoliación slice 140","Tonico hidrocalmante",  "Loción ablandante de comedones", "Vapor de  ozono", "Peeling ultrasónico" ,"Alta frecuencia ",  "Sérum con principios activos",  "Masaje facial", "Crema sellante", "Protector solar 50"].map((item) => (
+            <ul className="space-y-4 text-left ">
+                {["Emulsión desmaquillante","Exfoliación sílice 140","Tonico hidrocalmante",  "Loción ablandante de comedones", "Vapor de  ozono", "Peeling ultrasónico" ,"Alta frecuencia ",  "Sérum con principios activos",  "Masaje facial", "Crema sellante", "Protector solar 50"].map((item) => (
                     <li key={item} className="flex items-center space-x-3 rtl:space-x-reverse fade-in">
                         <svg className="flex-shrink-0 w-4 h-4 text-pink-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
                         </svg>
-                        <span className="text-white text-base md:text-lg" >{item}</span>
+                        <span className=" text-base md:text-xl" >{item}</span>
                     </li>
                 ))}
             </ul>

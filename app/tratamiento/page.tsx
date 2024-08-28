@@ -5,12 +5,12 @@ import { FaWater, FaLeaf, FaBroom, FaSun } from "react-icons/fa6";
 
 export default function Home() {
     return (
-        <div className=" bg-black text-white fade-in">
+        <div className="  fade-in">
             
 
             <div className="container mx-auto px-4 md:px-8">
             <div className="title-container">
-            <h1 className="text-white text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
+            <h1 className=" text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
               <span className="facial-icon">🧼</span>
               Tratamientos <span className="highlight">De Limpieza Facial</span>
             </h1>
@@ -24,7 +24,7 @@ export default function Home() {
                                     <FaWater className="w-6 h-6" />
                                 </div>
                                 <div>
-                                    <p className="text-white text-base md:text-lg">
+                                    <p className="e text-base md:text-xl">
                                         Permite eliminar impurezas y células muertas que resisten la limpieza diaria.
                                     </p>
                                 </div>
@@ -37,7 +37,7 @@ export default function Home() {
                                     <FaLeaf className="w-6 h-6" />
                                 </div>
                                 <div>
-                                    <p className="text-white text-base md:text-lg">
+                                    <p className=" text-base md:text-xl">
                                         Ayuda a rejuvenecer la piel evitando la aparición de arrugas prematuras.
                                     </p>
                                 </div>
@@ -52,7 +52,7 @@ export default function Home() {
                                     <FaBroom className="w-6 h-6" />
                                 </div>
                                 <div>
-                                    <p className="text-white text-base md:text-lg">
+                                    <p className=" text-base md:text-xl">
                                         Elimina puntos negros, espinillas, milia y acné.
                                     </p>
                                 </div>
@@ -65,7 +65,7 @@ export default function Home() {
                                     <FaSun className="w-6 h-6" />
                                 </div>
                                 <div>
-                                    <p className="text-white text-base md:text-lg">
+                                    <p className="text-base md:text-xl">
                                         Recupera el aspecto saludable, suave y luminoso de la piel.
                                     </p>
                                 </div>
@@ -80,7 +80,7 @@ export default function Home() {
                                 <FaSun className="w-6 h-6" />
                                 </div>
                                 <div>
-                                    <p className="text-white text-base md:text-lg">
+                                    <p className="text-base md:text-xl">
                                         Contribuye a la regulación de producción de sebo y restablece el pH natural de la piel.
                                     </p>
                                 </div>
@@ -94,7 +94,7 @@ export default function Home() {
 
                                 </div>
                                 <div>
-                                    <p className="text-white text-base md:text-lg">
+                                    <p className="text-base md:text-xl">
                                         Favorece la mejor absorción de productos de cuidado facial.
                                     </p>
                                 </div>

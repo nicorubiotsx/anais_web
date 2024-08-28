@@ -16,11 +16,11 @@ export default function Navbar() {
 
 
   // Function to determine if a link is active
-  const isActive = (path: string) => pathname === path ? 'text-pink-600 bg-gray-800' : 'text-pink-400';
+  const isActive = (path: string) => pathname === path ? 'text-white bg-gray-300' : 'text-pink-400';
 
   return (
     <>
-      <nav className="bg-black text-white p-4 fixed top-0 left-0 w-full z-50 shadow-lg border-b-2 border-pink-400">
+      <nav className="text-white p-4 fixed top-0 left-0 w-full z-50 shadow-lg border-b-2 border-pink-400">
         <div className="container mx-auto flex justify-between items-center">
 
           <div className="text-2xl font-bold">
