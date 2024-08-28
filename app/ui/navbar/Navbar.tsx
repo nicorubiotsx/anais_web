@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link href="/">    <Image
               src={'/logox.jpg'}
               width={40}
-              height={40}
+              height={50}
               alt=''
 
             /></Link>

@@ -9,7 +9,7 @@ export default function Home() {
         <div className=" background-imagee w-full h-96 bg-cover bg-center rounded-lg shadow-lg">
           {/* La clase `background-imagee` debe estar configurada en tu CSS para mostrar la imagen de fondo */}
           <div className="mt-40 absolute inset-0 flex items-center justify-center text-center bg-gradient-to-t from-black to-transparent p-4 rounded-lg">
-            <h1 className="text-white text-xl md:text-4xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
+            <h1 className="text-white text-xl md:text-5xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
               <span className="facial-icon">🧼</span>
               Salón AJ piel genuina <span className="highlight">cuidado de tu piel</span>
             </h1>
@@ -59,7 +59,7 @@ export default function Home() {
         Testimonios de Clientes
       </h2>
 
-      <div className="grid mb-8 border border-pink-400 rounded-lg shadow-lg dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-gray-800 dark:bg-gray-800 mt-10">
+      <div className="grid mb-8 border border-pink-400 rounded-lg shadow-lg dark:border-gray-700 md:mb-12 md:grid-cols-2  mt-10">
         <figure className="flex flex-col items-center justify-center p-8 text-center bg-black border  border-pink-400 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 className="text-pink-400 text-xl text-center md:text-2xl font-semibold mb-2">
