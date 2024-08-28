@@ -42,7 +42,7 @@ export default function Home() {
             </span>
           </h2>
 
-          <p className="text-white text-base md:text-lg">
+          <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
             En Salón Estética AJ Piel Genuina, queremos que luzcas una piel luminosa y radiante. Nuestro servicio de limpieza facial profunda es una experiencia rejuvenecedora y personalizada, usando técnicas avanzadas y productos de alta calidad.
           </p>
 
@@ -93,7 +93,7 @@ export default function Home() {
         </figure>
       </div>
 
-      <h2 className="text-pink-400 text-xl text-center md:text-4xl font-semibold mb-2 fade-in pt-20 mt-20">
+      <h2 className=" pt-20 text-pink-400 text-center text-2xl md:text-3xl font-bold mb-6 md:mb-8 fade-in">
         Nuestra Ubicación
       </h2>
 

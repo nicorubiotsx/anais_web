@@ -28,7 +28,7 @@ export default function Home() {
                                 Un Poco De Mi
                             </h2>
                             <div className="border-2 border-pink-400 rounded-lg shadow-xl bg-black p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
-                                <p className="text-white text-base md:text-lg leading-relaxed fade-in">
+                                <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
                                     Mi nombre es Anais Jara Maúlen, enfermera profesional enfocada en otorgar cuidado humanizado y de calidad dedicado a la disciplina del estudio y cuidado de la piel a través de tratamientos y técnicas de reparación, restauración, mantenimiento y prevención del deterioro de la piel. Mi objetivo es entregar un cuidado de calidad a tu piel para que la sientas renovada y fresca, además de proporcionarte los conocimientos para lograr un correcto cuidado de tu piel en tu vida cotidiana, según el biotipo cutáneo.
                                 </p>
                             </div>
@@ -46,7 +46,7 @@ export default function Home() {
                                 </h2>
                             </div>
                             <div className="border-2 border-pink-400 rounded-lg shadow-xl bg-black p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
-                                <p className="text-white text-base md:text-lg leading-relaxed mb-4 fade-in">
+                                <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
                                      Cuento con certificaciones profesionales que respaldan mi enfoque en la limpieza facial profunda. Utilizo técnicas avanzadas y productos de calidad, adaptando el tratamiento a tu tipo de piel para asegurar que luzca saludable y revitalizada. Mi objetivo es ofrecerte un cuidado eficaz y personalizado.
                                 </p>
                                 <div className="bg-black rounded-lg shadow-xl p-4 fade-in transform transition-transform hover:-translate-y-1 hover:shadow-3xl">
@@ -76,7 +76,7 @@ export default function Home() {
                                 Mi Filosofía
                             </h2>
                             <div className="border-2 border-pink-400 rounded-lg shadow-xl bg-black p-6 mb-6 transform transition-transform hover:-translate-y-1 hover:shadow-3xl fade-in">
-                                <p className="text-white text-base md:text-lg leading-relaxed fade-in">
+                                <p className="text-white text-center text-sm md:text-lg mb-6 md:mb-8">
                                    Creo firmemente en ofrecer un enfoque personalizado y humanizado a cada tratamiento. Mi compromiso es hacer que cada cliente se sienta cuidado, con productos de alta calidad y técnicas avanzadas que revitalizan y renuevan la piel, buscando siempre los mejores resultados para cada tipo de piel.
                                 </p>
                             </div>
