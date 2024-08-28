@@ -82,47 +82,47 @@ export default function Home() {
     return (
         <>
             <div className="container mx-auto ">
-                <div className="title-container">
-                    <h1 className="facial-title text-white text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s "><span className="facial-icon">🧼</span>Testimonios Visuales:
-                        <span className="highlight"> Antes Y Despues</span></h1>
+    <div className="title-container">
+        <h1 className="facial-title text-white text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
+            <span className="facial-icon">🧼</span> Testimonios Visuales:
+            <span className="highlight"> Antes Y Despues</span>
+        </h1>
+    </div>
 
-                </div>  
-                
-                
-                
-                              <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {tratamientos.map((tratamiento, index) => (
-                        <div key={index} className="  bg-zinc-950 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 md:mt-20" data-aos="fade-up">
-                            <div className="p-4">
-                                <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mb-2">{tratamiento.titulo}</h2>
-                                <div className="flex flex-col sm:flex-row gap-4 mb-4">
-                                    <div className="flex-1 relative">
-                                        <Image
-                                            width={300}
-                                            height={200}
-                                            src={tratamiento.imagenAntes}
-                                            alt={`Antes - ${tratamiento.titulo}`}
-                                            className="w-full h-65 object-cover rounded transition-transform transform hover:scale-105"
-                                        />
-                                        <span className="absolute top-2 left-2 bg-black bg-opacity-50 text-white px-2 py-1 text-sm rounded">Antes</span>
-                                    </div>
-                                    <div className="flex-1 relative">
-                                        <Image
-                                            width={300}
-                                            height={200}
-                                            src={tratamiento.imagenDespues}
-                                            alt={`Después - ${tratamiento.titulo}`}
-                                            className="w-full h-65 object-cover rounded transition-transform transform hover:scale-105"
-                                        />
-                                        <span className="absolute top-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 text-sm rounded">Después</span>
-                                    </div>
-                                </div>
-                                <p className="text-white text-sm md:text-lg">{tratamiento.descripcion}</p>
-                            </div>
+    <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-6">
+        {tratamientos.map((tratamiento, index) => (
+            <div key={index} className="bg-zinc-950 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 md:mt-20" data-aos="fade-up">
+                <div className="p-4">
+                    <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mb-2">{tratamiento.titulo}</h2>
+                    <div className="flex flex-col sm:flex-row gap-4 mb-4">
+                        <div className="flex-1 relative cover-eyes">
+                            <Image
+                                width={300}
+                                height={200}
+                                src={tratamiento.imagenAntes}
+                                alt={`Antes - ${tratamiento.titulo}`}
+                                className="w-full h-65 object-cover rounded transition-transform transform hover:scale-105"
+                            />
+                            <span className="absolute top-2 left-2 bg-black bg-opacity-50 text-white px-2 py-1 text-sm rounded">Antes</span>
                         </div>
-                    ))}
+                        <div className="flex-1 relative cover-eyes">
+                            <Image
+                                width={300}
+                                height={200}
+                                src={tratamiento.imagenDespues}
+                                alt={`Después - ${tratamiento.titulo}`}
+                                className="w-full h-65 object-cover rounded transition-transform transform hover:scale-105"
+                            />
+                            <span className="absolute top-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 text-sm rounded">Después</span>
+                        </div>
+                    </div>
+                    <p className="text-white text-sm md:text-lg">{tratamiento.descripcion}</p>
                 </div>
             </div>
+        ))}
+    </div>
+</div>
+
 
             <div className=" container mx-auto px-4 py-8  md:mt-20">
                 <h1 className="text-center text-pink-400 text-xl md:text-4xl font-bold fade-in"> Dermaplaning + electroporación e hidratación en acción  </h1>
@@ -135,15 +135,15 @@ export default function Home() {
                         {slides.map((s, index) => (
                             <div key={index} className="w-full flex-shrink-0">
                                 <div className="bg-zinc-950 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                                <div className="relative w-full h-[450px] md:h-[500px] lg:h-[800px]">
-    <Image
-        src={s.image}
-        alt={`Imagen del slide ${index + 1}`}
-        layout="fill"
-        objectFit="contain" // Cambiar de cover a contain
-        className="rounded transition-transform transform hover:scale-105"
-    />
-</div>
+                                    <div className="relative w-full h-[450px] md:h-[500px] lg:h-[800px]">
+                                        <Image
+                                            src={s.image}
+                                            alt={`Imagen del slide ${index + 1}`}
+                                            layout="fill"
+                                            objectFit="contain" // Cambiar de cover a contain
+                                            className="rounded transition-transform transform hover:scale-105"
+                                        />
+                                    </div>
 
                                     <div className="p-4">
                                         <p className="text-white text-sm md:text-lg">{s.description}</p>
