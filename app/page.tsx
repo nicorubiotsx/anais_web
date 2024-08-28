@@ -60,8 +60,8 @@ export default function Home() {
       </h2>
 
       <div className="grid mb-8 border border-pink-400 rounded-lg shadow-lg dark:border-gray-700 md:mb-12 md:grid-cols-2  mt-10">
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-black border  border-pink-400 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
-          <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+        <figure className="flex flex-col items-center justify-center p-8 text-center bg-black border  border-pink-400 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e ">
+          <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 ">
             <h3 className="text-pink-400 text-xl text-center md:text-2xl font-semibold mb-2">
               Limpieza Facial Profunda
             </h3>
@@ -71,13 +71,12 @@ export default function Home() {
           </blockquote>
           <figcaption className="flex items-center justify-center">
             <div className="space-y-0.5 font-medium dark:text-white text-left ms-3">
-              <div>Bonnie Green</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">Clienta Feliz</div>
+              <div className="text-sm text-white" >Clienta Feliz</div>
             </div>
           </figcaption>
         </figure>
 
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-black border-b border-gray-200 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+        <figure className="flex flex-col items-center justify-center p-8 text-center bg-black border-b border-gray-200 md:rounded-se-lg ">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 className="text-pink-400 text-xl text-center md:text-2xl font-semibold mb-2">
               Dermaplaning
@@ -88,8 +87,7 @@ export default function Home() {
           </blockquote>
           <figcaption className="flex items-center justify-center">
             <div className="space-y-0.5 font-medium dark:text-white text-left ms-3">
-              <div>Roberta Casas</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">Clienta Satisfecha</div>
+              <div className="text-sm text-white ">Clienta Satisfecha</div>
             </div>
           </figcaption>
         </figure>
