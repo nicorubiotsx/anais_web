@@ -5,17 +5,16 @@ import { FaWater, FaLeaf, FaBroom, FaSun } from "react-icons/fa6";
 
 export default function Home() {
     return (
-        <div className="bg-black text-white">
+        <div className=" bg-black text-white fade-in">
+            
+
+            <div className="container mx-auto px-4 md:px-8">
             <div className="title-container">
-    <h1 className="facial-title">
-        <span className="facial-icon">🧼</span>
-        Tratamientos de <span className="highlight">Limpieza Facial</span>
-    </h1>
-</div>
-            <div className="mt-10 px-4 md:px-8">
-                <h2 className="text-pink-400 text-center text-2xl md:text-3xl font-bold mb-4 fade-in">
-                    Conoce Los Beneficios De Nuestros Tratamientos Faciales
-                </h2>
+            <h1 className="text-white text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s ">
+              <span className="facial-icon">🧼</span>
+              Tratamientos <span className="highlight">De Limpieza Facial</span>
+            </h1>
+          </div>
 
                 <div className="mx-auto">
                     <div className="flex flex-wrap justify-between gap-8">

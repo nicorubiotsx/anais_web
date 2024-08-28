@@ -17,20 +17,24 @@ export default function Home() {
     };
 
     const slides = [
-        { image: '/dermaplaning1.jpg',
-            description:'Dermaplaning inicial, donde se está removiendo el vello fino y las células muertas de la piel del rostro de la clienta con una herramienta especial. Se nota una mejora en la suavidad y textura de la piel.'
+        {
+            image: '/dermaplaning1.jpg',
+            description: 'Dermaplaning inicial, donde se está removiendo el vello fino y las células muertas de la piel del rostro de la clienta con una herramienta especial. Se nota una mejora en la suavidad y textura de la piel.'
 
-         }
+        }
         ,
-        { image: '/dermaplaning2.jpg',
-            description:'Aplicación de suero hidratante mediante electroporación. La técnica está diseñada para mejorar la absorción de productos nutritivos en la piel, dejándola más tersa y luminosa.'
-         },
-        { image: '/dermaplaning3.jpg',
-            description:'Examinación de la piel después del tratamiento para verificar los resultados. La piel se ve más brillante y uniforme, con una notable reducción en la apariencia de poros y líneas finas'
-         },
-        { image: '/dermaplaning4.jpg',
-            description:'Hidrata y protege la piel con una mascarilla calmante después del dermaplaning y la electroporación, lo que ayuda a reducir cualquier posible enrojecimiento o irritación.'
-         },
+        {
+            image: '/dermaplaning2.jpg',
+            description: 'Aplicación de suero hidratante mediante electroporación. La técnica está diseñada para mejorar la absorción de productos nutritivos en la piel, dejándola más tersa y luminosa.'
+        },
+        {
+            image: '/dermaplaning3.jpg',
+            description: 'Examinación de la piel después del tratamiento para verificar los resultados. La piel se ve más brillante y uniforme, con una notable reducción en la apariencia de poros y líneas finas'
+        },
+        {
+            image: '/dermaplaning4.jpg',
+            description: 'Hidrata y protege la piel con una mascarilla calmante después del dermaplaning y la electroporación, lo que ayuda a reducir cualquier posible enrojecimiento o irritación.'
+        },
     ];
 
     const tratamientos = [
@@ -72,13 +76,18 @@ export default function Home() {
 
     return (
         <>
-            <div className="container mx-auto px-4 py-8">
-            <div className="title-container">
-                        <h1 className="facial-title"><span className="facial-icon">🧼</span>Testimonios Visuales: 
-                        <span className="highlight">Antes Y Despues</span></h1>
-                    </div>                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="container mx-auto ">
+                <div className="title-container">
+                    <h1 className="facial-title text-white text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s "><span className="facial-icon">🧼</span>Testimonios Visuales:
+                        <span className="highlight"> Antes Y Despues</span></h1>
+
+                </div>  
+                
+                
+                
+                              <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-6">
                     {tratamientos.map((tratamiento, index) => (
-                        <div key={index} className="bg-zinc-950 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300" data-aos="fade-up">
+                        <div key={index} className="  bg-zinc-950 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 md:mt-20" data-aos="fade-up">
                             <div className="p-4">
                                 <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mb-2">{tratamiento.titulo}</h2>
                                 <div className="flex flex-col sm:flex-row gap-4 mb-4">
@@ -110,7 +119,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="container mx-auto px-4 py-8">
+            <div className=" container mx-auto px-4 py-8  md:mt-20">
                 <h1 className="text-center text-pink-400 text-xl md:text-4xl font-bold fade-in"> Dermaplaning + electroporación e hidratación en acción  </h1>
 
                 <div className="relative w-full overflow-hidden mt-8">

@@ -49,40 +49,48 @@ export default function Home() {
     };
 
     return (
-        <>
-            <div className="title-container mb-12">
-                <h1 className="facial-title text-3xl md:text-5xl font-bold text-pink-400">
-                    <span className="facial-icon">🧼</span>
-                    Preguntas Más <span className="highlight text-white">Frecuentes</span>
-                </h1>
+        <div className=' bg-black text-white fade-in'>
+            <div className="container mx-auto ">
+               
+                    <div className="title-container">
+                        <h1 className="facial-title text-white text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s"><span className="facial-icon">🧼</span>Preguntas
+                            <span className="highlight">Más Frecuentes</span></h1>
+                    </div>
+
+                
+
+                
+                    <div className="p-6 rounded-lg shadow-lg text-center ">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            {preguntas.map((faq, index) => (
+                                <div
+                                    key={index}
+                                    className={`p-8 flex flex-col items-start rounded-lg border border-pink-400 shadow-md transition-all duration-300 ease-in-out transform `}>
+                                    <div className="flex items-center w-full mb-4 cursor-pointer" onClick={() => toggleAccordion(index)}>
+                                        {faq.icono}
+                                        <h3 className='text-pink-400 text-lg md:text-2xl font-semibold ml-4'>
+                                            {faq.pregunta}
+                                        </h3>
+                                        <button className='ml-auto bg-white'>
+                                            {expandedIndex === index
+                                                ? <FaChevronUp className="text-pink-400 text-2xl" />
+                                                : <FaChevronDown className="text-pink-400 text-2xl" />}
+                                        </button>
+                                    </div>
+                                    {expandedIndex === index && (
+                                        <p className="text-white text-base md:text-lg mt-4 transition-all duration-300 ease-in-out">
+                                            {faq.respuesta}
+                                        </p>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
             </div>
 
-            <div className="p-6 rounded-lg shadow-lg text-center ">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {preguntas.map((faq, index) => (
-                        <div 
-                            key={index} 
-                            className={`p-8 flex flex-col items-start rounded-lg border border-pink-400 shadow-md transition-all duration-300 ease-in-out transform `}>
-                            <div className="flex items-center w-full mb-4 cursor-pointer" onClick={() => toggleAccordion(index)}>
-                                {faq.icono}
-                                <h3 className='text-pink-400 text-lg md:text-2xl font-semibold ml-4'>
-                                    {faq.pregunta}
-                                </h3>
-                                <button className='ml-auto bg-white'>
-                                    {expandedIndex === index 
-                                        ? <FaChevronUp className="text-pink-400 text-2xl" /> 
-                                        : <FaChevronDown className="text-pink-400 text-2xl" />}
-                                </button>
-                            </div>
-                            {expandedIndex === index && (
-                                <p className="text-white text-base md:text-lg mt-4 transition-all duration-300 ease-in-out">
-                                    {faq.respuesta}
-                                </p>
-                            )}
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </>
+
+
+        </div>
     );
 }
