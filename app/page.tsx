@@ -43,7 +43,7 @@ export default function Home() {
           </h2>
 
           <p className="text-white text-base md:text-lg">
-            En Centro Estética Piel Genuina, queremos que luzcas una piel luminosa y radiante. Nuestro servicio de limpieza facial profunda es una experiencia rejuvenecedora y personalizada, usando técnicas avanzadas y productos de alta calidad.
+            En Salón Estética AJ Piel Genuina, queremos que luzcas una piel luminosa y radiante. Nuestro servicio de limpieza facial profunda es una experiencia rejuvenecedora y personalizada, usando técnicas avanzadas y productos de alta calidad.
           </p>
 
           <h2 className="text-pink-400 text-xl text-center md:text-3xl font-semibold mb-2 fade-in mt-10">
@@ -121,7 +121,7 @@ export default function Home() {
             Conéctate con nosotros a través de Instagram para ver nuestras últimas promociones, consejos de belleza y novedades.
           </p>
           <a
-            href="https://www.instagram.com/anaisjaramaulen/"
+            href="https://www.instagram.com/aj_pielgenuina/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col justify-center items-center text-pink-400 text-lg gap-2 bg-white hover:bg-pink-100 py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl animate__animated animate__fadeIn"
