@@ -22,12 +22,8 @@ export default function Home() {
             description: 'Dermaplaning inicial, donde se está removiendo el vello fino y las células muertas de la piel del rostro de la clienta con una herramienta especial. Se nota una mejora en la suavidad y textura de la piel.'
 
         },
-        {
-            image: '/dermaplaning1.jpg',
-            description: 'Dermaplaning inicial, donde se está removiendo el vello fino y las células muertas de la piel del rostro de la clienta con una herramienta especial. Se nota una mejora en la suavidad y textura de la piel.'
-
-        }
-        ,
+    
+        
         {
             image: '/dermaplaning2.jpg',
             description: 'Aplicación de suero hidratante mediante electroporación. La técnica está diseñada para mejorar la absorción de productos nutritivos en la piel, dejándola más tersa y luminosa.'
