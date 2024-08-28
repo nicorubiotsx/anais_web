@@ -18,6 +18,11 @@ export default function Home() {
 
     const slides = [
         {
+            image: '/dermaplaning11.jpg',
+            description: 'Dermaplaning inicial, donde se está removiendo el vello fino y las células muertas de la piel del rostro de la clienta con una herramienta especial. Se nota una mejora en la suavidad y textura de la piel.'
+
+        },
+        {
             image: '/dermaplaning1.jpg',
             description: 'Dermaplaning inicial, donde se está removiendo el vello fino y las células muertas de la piel del rostro de la clienta con una herramienta especial. Se nota una mejora en la suavidad y textura de la piel.'
 
@@ -130,15 +135,16 @@ export default function Home() {
                         {slides.map((s, index) => (
                             <div key={index} className="w-full flex-shrink-0">
                                 <div className="bg-zinc-950 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                                    <div className="relative w-full h-[450px] md:h-[500px] lg:h-[600px]">
-                                        <Image
-                                            src={s.image}
-                                            alt={`Imagen del slide ${index + 1}`}
-                                            layout="fill"
-                                            objectFit="cover"
-                                            className="rounded transition-transform transform hover:scale-105"
-                                        />
-                                    </div>
+                                <div className="relative w-full h-[450px] md:h-[500px] lg:h-[800px]">
+    <Image
+        src={s.image}
+        alt={`Imagen del slide ${index + 1}`}
+        layout="fill"
+        objectFit="contain" // Cambiar de cover a contain
+        className="rounded transition-transform transform hover:scale-105"
+    />
+</div>
+
                                     <div className="p-4">
                                         <p className="text-white text-sm md:text-lg">{s.description}</p>
                                     </div>

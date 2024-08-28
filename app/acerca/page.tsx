@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <>
             <section className=" bg-black text-white fade-in">
-                <div className="container mx-auto px-4 md:px-8">
+                <div className="container mx-auto">
                 <div className="title-container">
                         <h1 className=" text-white text-3xl md:text-6xl font-semibold p-2 rounded-lg animate__animated animate__fadeIn animate__delay-1s"><span className="facial-icon">🧼</span>Conoce Un Poco 
                         <span className="highlight">Más De Mi</span></h1>
