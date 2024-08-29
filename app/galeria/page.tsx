@@ -10,31 +10,32 @@ export default function Home() {
 
     const nextSlide = () => {
         setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-    };
+    }; 'Hidrata y protege la piel con una mascarilla calmante después del dermaplaning y la electroporación, lo que ayuda a reducir cualquier posible enrojecimiento o irritación.'
 
     const prevSlide = () => {
         setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
     };
-
     const slides = [
         {
             image: '/dermaplaning11.jpg',
-            description: 'El procedimiento de alta frecuencia actúa como un descongestivo, antiinflamatorio y bactericida, eliminando eficazmente todas las bacterias presentes '
+            description: 'Remover con bisturi el estrato corneó (celulas muertas) de la piel, con el fin de que los serum con principios activos sean capaz de actuar a nivel de capa mas profunda(demis)'
+
 
         },
 
 
         {
             image: '/dermaplaning2.jpg',
+            description: "El procedimiento de alta frecuencia actúa como un descongestivo , antiinflamatorio, y bactericida, eliminando eficazmente todas las bacterias presentes"
+        },
+
+        {
+            image: '/dermaplaning3.jpg',
             description: 'Aplicación de suero hidratante mediante electroporación. La técnica está diseñada para mejorar la absorción de productos nutritivos en la piel, dejándola más tersa y luminosa.'
         },
         {
-            image: '/dermaplaning3.jpg',
-            description: 'Revisión de la piel después del tratamiento para verificar los resultados. La piel se ve más brillante y uniforme, con una notable reducción en la apariencia de poros y líneas finas'
-        },
-        {
             image: '/dermaplaning4.jpg',
-            description: 'Hidrata y protege la piel con una mascarilla calmante después del dermaplaning y la electroporación, lo que ayuda a reducir cualquier posible enrojecimiento o irritación.'
+            description: 'Hidrata y protege la piel con una mascarilla calmante después del dermaplaning y la electroporación, lo que ayuda a reducir cualquier posible enrojecimiento o irritación, revision de la piel del tratamiento para verificar los resultados.La piel se ve más brillante y uniforme,con una notable reducción en la apariencia de poros y lineas finas'
         },
     ];
 
