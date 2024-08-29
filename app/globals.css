@@ -344,12 +344,31 @@ img, input[type=range] {
   top: 30%; /* Ajusta esta distancia según la altura de los ojos */
   left: 0;
   width: 100%;
-  height: 100px; /* Ajusta la altura del área de desenfoque */
+  height: 110px; /* Ajusta la altura del área de desenfoque */
   background: rgba(255, 255, 255, 0.1); /* Ligero fondo semitransparente */
   backdrop-filter: blur(40px); /* Aplica el desenfoque */
   z-index: 10;
 }
 
+
+
+
+@media (max-width: 768px) {
+.cover-eyes::before {
+  content: '';
+  position: absolute;
+  top: 30%; /* Ajusta esta distancia según la altura de los ojos */
+  left: 0;
+  width: 100%;
+  height: 138px; /* Ajusta la altura del área de desenfoque */
+  background: rgba(255, 255, 255, 0.1); /* Ligero fondo semitransparente */
+  backdrop-filter: blur(40px); /* Aplica el desenfoque */
+  z-index: 10;
+}
+
+
+
+}
 
 
 
