@@ -333,3 +333,28 @@ img, input[type=range] {
   background: rgba(0, 0, 1, 1.3); /* Fondo negro semitransparente */
   z-index: 10;
 }
+.cover-eyes {
+  position: relative;
+}
+/* 1:31 2;25*/
+
+.cover-eyes::before {
+  content: '';
+  position: absolute;
+  top: 30%; /* Ajusta esta distancia según la altura de los ojos */
+  left: 0;
+  width: 100%;
+  height: 100px; /* Ajusta la altura del área de desenfoque */
+  background: rgba(255, 255, 255, 0.1); /* Ligero fondo semitransparente */
+  backdrop-filter: blur(40px); /* Aplica el desenfoque */
+  z-index: 10;
+}
+
+
+
+
+
+/* 5,6,8,10 =top:45...2:3 */
+
+
+/* 1,4,7,9=36 */

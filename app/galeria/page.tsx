@@ -30,7 +30,7 @@ export default function Home() {
         },
         {
             image: '/dermaplaning3.jpg',
-            description: 'Examinación de la piel después del tratamiento para verificar los resultados. La piel se ve más brillante y uniforme, con una notable reducción en la apariencia de poros y líneas finas'
+            description: 'Revisión de la piel después del tratamiento para verificar los resultados. La piel se ve más brillante y uniforme, con una notable reducción en la apariencia de poros y líneas finas'
         },
         {
             image: '/dermaplaning4.jpg',
@@ -105,7 +105,7 @@ export default function Home() {
                                         <Image
                                             width={300}
                                             height={200}
-                                            src={tratamiento.imagenAntes}
+                                            src={tratamiento.imagenDespues}
                                             alt={`Antes - ${tratamiento.titulo}`}
                                             className="w-full h-65 object-cover rounded transition-transform transform hover:scale-105"
                                         />
