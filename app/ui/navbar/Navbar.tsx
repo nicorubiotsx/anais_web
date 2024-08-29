@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="p-4 fixed top-0 left-0 w-full z-50 shadow-lg border-b-2 border-pink-400 bg-pink-400">
+      <nav className="p-4 fixed top-0 left-0 w-full z-50 shadow-lg border-b-2 border-pink-400 bg-customPink">
         <div className="container mx-auto flex justify-between items-center">
 
           <div className="text-2xl font-bold">
@@ -48,7 +48,7 @@ export default function Navbar() {
           </div>
 
           {/* Menu Items */}
-          <div className={`lg:flex lg:items-center lg:space-x-6 absolute lg:relative top-full left-0 w-full lg:w-auto lg:bg-transparent ${isOpen ? 'block bg-pink-400' : 'hidden'} shadow-lg border-t-2 border-pink-400 lg:border-none`}>
+          <div className={`lg:flex lg:items-center lg:space-x-6 absolute lg:relative top-full left-0 w-full lg:w-auto bg-customPink ${isOpen ? 'block' : 'hidden'} shadow-lg border-t-2 border-pink-400 lg:border-none`}>
             <Link href="/" className={`block px-4 py-2 text-lg hover:bg-gray-700 lg:text-xl lg:px-6 lg:py-3 ${isActive('/')}`} onClick={handleLinkClick}>Inicio</Link>
             <Link href="/acerca" className={`block px-4 py-2 text-lg hover:bg-gray-700 lg:text-xl lg:px-6 lg:py-3 ${isActive('/acerca')}`} onClick={handleLinkClick}>Acerca</Link>
             <Link href="/tratamiento" className={`block px-4 py-2 text-lg hover:bg-gray-700 lg:text-xl lg:px-6 lg:py-3 ${isActive('/tratamiento')}`} onClick={handleLinkClick}>Tratamientos</Link>

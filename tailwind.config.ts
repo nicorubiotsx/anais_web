@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors:{
+        customPink:'#F2AEBB'
+      }
      
     },
   },
