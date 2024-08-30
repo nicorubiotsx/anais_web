@@ -4,6 +4,7 @@ import "./globals.css";
 import 'animate.css';
 import Footer from "./ui/Footer";
 import Navbar from "./ui/navbar/Navbar";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const Ro = Roboto_Mono({ weight: "400", subsets: ["latin"] })
@@ -38,6 +39,7 @@ export default function RootLayout({
       <body className={ale.className}>
         <Navbar />
         {children}
+        <Analytics/>
 
         <Footer />
 
