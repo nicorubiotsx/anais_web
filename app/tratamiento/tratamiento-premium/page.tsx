@@ -2,6 +2,24 @@ import Image from "next/image";
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export default function Home() {
+
+    const tratamiento = [
+        "Emulsión desmaquillante",
+        "Tónico hidrocalmante",
+        "Exfoliación",
+        "Loción ablandante de comedones",
+        "Vapor ozono (bactericida)",
+        "Peeling ultrasónico",
+        "Alta frecuencia",
+        "Microdermoabrasión",
+        "Mascarilla facial",
+        "Fototerapia (máscara LED)",
+        "Electroporación",
+        "Nutrición (sérum con principios activos)",
+        "Masaje facial",
+        "Protector solar 50"
+    ];
+
     return (
         <>
             <div className="mt-7 p-5  from-pink-50 to-pink-100 trata-detalle mx-auto">
@@ -24,7 +42,7 @@ export default function Home() {
                     <div>
                         <h2 className="text-pink-500 text-xl text-center md:text-3xl font-semibold mb-4 slide-in">INCLUYE</h2>
                         <ul className="space-y-4 text-left ">
-                            {["Emulsión desmaquillante", "Exfoliación sílice 140", "Dermoabrasión", "Tónico hidrocalmante", "Loción ablandante de comedones", "Vapor de ozono", "Peeling ultrasónico", "Alta frecuencia", "Sérum con principios activos", "Electroporación", "Masaje facial", "Crema sellante", "Protector solar factor 50"].map((item) => (
+                            {tratamiento.map((item) => (
                                 <li key={item} className="flex items-center space-x-3 rtl:space-x-reverse fade-in">
                                     <svg className="flex-shrink-0 w-4 h-4 text-pink-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5" />
